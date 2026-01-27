@@ -4,7 +4,7 @@ This repository contains the training and evaluation code for **Genie Digital Tw
 
 
 
-> **⚠️ IMPORTANT NOTE:** This repository provides GDT training and evaluation scripts using an **early version of TwinWeaver** (included for reference in `1_twinweaver/`). For full TwinWeaver framework development and application to new datasets, please use the **complete TwinWeaver package** available at [MendenLab/TwinWeaver](https://github.com/MendenLab/TwinWeaver).
+> **⚠️ IMPORTANT NOTE:** This repository provides GDT training and evaluation scripts using an **early version of TwinWeaver** (included for reference in `1_twinweaver_reference_only/`). For full TwinWeaver framework development and application to new datasets, please use the **complete TwinWeaver package** available at [MendenLab/TwinWeaver](https://github.com/MendenLab/TwinWeaver).
 
 >**NOTE:** This repository is provided as a reference, requiring the CGDB dataset to run.
 
@@ -28,16 +28,16 @@ This repository contains the training and evaluation code for **Genie Digital Tw
 ## Repository Structure
 
 ```
-├── 1_twinweaver/              # Early TwinWeaver version (reference only)
-├── 2_gdt_training/            # GDT model training pipeline
-├── 3_cgdb_forecasting/        # Real-world data forecasting evaluation
-├── 4_cgdb_events/             # Real-world data event prediction evaluation
-├── 5_clinical_trials_forecasting/  # Clinical trial forecasting evaluation
-├── 6_clinical_trials_events/  # Clinical trial event prediction evaluation
-└── 7_reasoning/               # Interpretable reasoning extension
+├── 1_twinweaver_reference_only/     # Early TwinWeaver version (reference only)
+├── 2_gdt_training/                  # GDT model training pipeline
+├── 3_cgdb_forecasting/              # Real-world data forecasting evaluation
+├── 4_cgdb_events/                   # Real-world data event prediction evaluation
+├── 5_clinical_trials_forecasting/   # Clinical trial forecasting evaluation
+├── 6_clinical_trials_events/        # Clinical trial event prediction evaluation
+└── 7_reasoning/                     # Interpretable reasoning extension
 ```
 
-### 1. TwinWeaver Framework (`1_twinweaver/`)
+### 1. TwinWeaver Framework (`1_twinweaver_reference_only/`)
 
 Contains the early version of TwinWeaver used to train GDT, provided for reference. This includes:
 - Multi-modal data serialization to text
