@@ -1,6 +1,9 @@
 # Genie Digital Twin (GDT): Training and Evaluation Scripts
 
-This repository contains the training and evaluation code for **Genie Digital Twin (GDT)**, a pan-cancer longitudinal foundation model presented in our paper "TwinWeaver: An LLM-Based Foundation Model Framework for Pan-Cancer Digital Twins."
+This repository contains the training and evaluation code for **Genie Digital Twin (GDT)**, a pan-cancer longitudinal foundation model presented in our preprint ["TwinWeaver: An LLM-Based Foundation Model Framework for Pan-Cancer Digital Twins."](https://www.arxiv.org/abs/2601.20906).
+
+This project was a collaboration between Roche and Helmholtz Munich, as part of the Munich School of Data Science (MUDS) program.
+
 
 
 
@@ -121,7 +124,17 @@ Requests for data sharing by license or permission for replicating results can b
 ## Citation
 
 If you use this code or the GDT model in your research, please cite our paper:
-[TODO: added later].
+```
+@misc{makarov2026twinweaver,
+      title={TwinWeaver: An LLM-Based Foundation Model Framework for Pan-Cancer Digital Twins}, 
+      author={Nikita Makarov and Maria Bordukova and Lena Voith von Voithenberg and Estrella Pivel-Villanueva and Sabrina Mielke and Jonathan Wickes and Hanchen Wang and Mingyu Derek Ma and Keunwoo Choi and Kyunghyun Cho and Stephen Ra and Raul Rodriguez-Esteban and Fabian Schmich and Michael Menden},
+      year={2026},
+      eprint={2601.20906},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2601.20906}, 
+}
+```
 
 ## Requirements
 
