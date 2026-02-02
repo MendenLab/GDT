@@ -13,7 +13,7 @@ This project was a collaboration between Roche and Helmholtz Munich, as part of 
 
 ## Overview
 
-**GDT** is a fine-tuned Llama 3.1 8B Instruct model trained on 93,054 patients across 20 cancer indications from the Flatiron Health-Foundation Medicine Clinico-Genomic Database (CGDB). The model demonstrates state-of-the-art performance on:
+**GDT** is a fine-tuned Llama 3.1 8B Instruct model developed on 93,054 patients across 20 cancer indications from the Flatiron Health-Foundation Medicine Clinico-Genomic Database (CGDB). The model demonstrates state-of-the-art performance on:
 
 - **Blood Biomarker Forecasting**: Predicting continuous time-series values up to 13 weeks ahead (median MASE 0.87 vs 0.97 for best baseline)
 - **Clinical Event Prediction**: Landmark prediction for survival, progression, therapy switching, and metastasis (average C-index 0.703 vs 0.662 for best baseline)
