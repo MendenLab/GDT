@@ -2,7 +2,7 @@
 
 This repository contains the training and evaluation code for **Genie Digital Twin (GDT)**, a pan-cancer longitudinal foundation model presented in our preprint ["TwinWeaver: An LLM-Based Foundation Model Framework for Pan-Cancer Digital Twins."](https://www.arxiv.org/abs/2601.20906).
 
-This project was a collaboration between Roche and Helmholtz Munich, as part of the Munich School of Data Science (MUDS) program.
+This project is a collaboration between Roche and Helmholtz Munich, as part of the Munich School of Data Science (MUDS) program.
 
 
 
